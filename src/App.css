@@ -1,0 +1,18 @@
+.titleBar{
+  height:10%;
+  width:100%;
+  border-radius:12px 0 0 0;
+  background-image: linear-gradient(0deg, rgb(123, 132, 140), transparent);
+  border-bottom: 1px solid #6c757d;
+  padding : 1px 5px 10px 8px;
+  display:flex;
+  flex-direction : row;
+  justify-content : space-between;
+}
+.batteryIcon{
+  width : 20px;
+  height: 20px;
+}
+.active{
+  background-color: #7EE8FA;
+}
